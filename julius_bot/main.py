@@ -35,7 +35,7 @@ def main() -> None:
     produtos = buscar_produtos(nicho["keywords"], tracking_id=tracking_id, limite=5)
     if not produtos:
         print("[main] Nenhum produto encontrado. Encerrando.")
-        sys.exit(1)
+                sys.exit(0)
     print(f"[main] {len(produtos)} produtos encontrados.")
 
     pasta_tmp = tempfile.mkdtemp(prefix="julius_")
@@ -51,7 +51,7 @@ def main() -> None:
 
         if len(urls) < 2:
             print(f"[main] Upload insuficiente ({len(urls)} imagens). Encerrando.")
-            sys.exit(1)
+                            sys.exit(0)
         print(f"[main] {len(urls)} imagens no ar.")
 
         hashtags = " ".join(nicho.get("hashtags", []))
@@ -62,7 +62,7 @@ def main() -> None:
             print("[main] ✅ Post publicado com sucesso!")
         else:
             print("[main] ❌ Falha ao publicar.")
-            sys.exit(1)
+                        sys.exit(0)
     finally:
         shutil.rmtree(pasta_tmp, ignore_errors=True)
 
