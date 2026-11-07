@@ -37,9 +37,9 @@ def main() -> None:
         print("[main] Nenhum produto encontrado. Encerrando.")
         sys.exit(0)
     print(f"[main] {len(produtos)} produtos encontrados.")
-h
+
     pasta_tmp = tempfile.mkdtemp(prefix="julius_")
-    try:h
+    try:
         imagens = gerar_carousel(nicho["nome"], produtos, pasta=pasta_tmp)
         print(f"[main] {len(imagens)} imagens geradas.")
 
