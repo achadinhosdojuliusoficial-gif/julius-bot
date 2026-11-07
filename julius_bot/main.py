@@ -37,9 +37,9 @@ def main() -> None:
         print("[main] Nenhum produto encontrado. Encerrando.")
         sys.exit(0)
     print(f"[main] {len(produtos)} produtos encontrados.")
-
+h
     pasta_tmp = tempfile.mkdtemp(prefix="julius_")
-    try:
+    try:h
         imagens = gerar_carousel(nicho["nome"], produtos, pasta=pasta_tmp)
         print(f"[main] {len(imagens)} imagens geradas.")
 
@@ -51,7 +51,7 @@ def main() -> None:
 
         if len(urls) < 2:
             print(f"[main] Upload insuficiente ({len(urls)} imagens). Encerrando.")
-                            sys.exit(0)
+            sys.exit(0)
         print(f"[main] {len(urls)} imagens no ar.")
 
         hashtags = " ".join(nicho.get("hashtags", []))
@@ -62,7 +62,7 @@ def main() -> None:
             print("[main] ✅ Post publicado com sucesso!")
         else:
             print("[main] ❌ Falha ao publicar.")
-                        sys.exit(0)
+            sys.exit(0)
     finally:
         shutil.rmtree(pasta_tmp, ignore_errors=True)
 
