@@ -1,0 +1,60 @@
+{
+  "nichos": [
+    {
+      "id": "primeiro_ape",
+      "nome": "Primeiro Apê",
+      "emoji": "🏠",
+      "descricao": "kit essencial pra quem acabou de sair do ninho",
+      "termos_ml": ["organizador gaveta", "suporte panela", "toalha banho", "jogo lençol", "tapete banheiro", "porta tempero", "suporte celular", "ventilador de mesa", "lixeira cozinha", "vassoura cabo"],
+      "preco_max": 150
+    },
+    {
+      "id": "home_office",
+      "nome": "Home Office Econômico",
+      "emoji": "💻",
+      "descricao": "trabalhar em casa sem gastar o aluguel",
+      "termos_ml": ["suporte notebook", "mouse sem fio", "teclado usb", "webcam", "luminária mesa led", "suporte monitor", "hub usb", "mousepad grande", "fone headset", "cadeira gamer barata"],
+      "preco_max": 200
+    },
+    {
+      "id": "estudante",
+      "nome": "Kit Estudante",
+      "emoji": "📚",
+      "descricao": "sobreviver na faculdade com pouco no bolso",
+      "termos_ml": ["mochila notebook", "caderno universitário", "caneta gel", "marca texto", "garrafa térmica", "fone bluetooth", "calculadora científica", "pasta fichário", "post it", "régua"],
+      "preco_max": 100
+    },
+    {
+      "id": "treino_casa",
+      "nome": "Treino em Casa",
+      "emoji": "💪",
+      "descricao": "malhar sem pagar academia",
+      "termos_ml": ["elástico musculação", "tapete yoga", "anilha", "corda pular", "barra fixa", "luva musculação", "garrafa squeeze", "rolo massagem", "halteres", "abdominador"],
+      "preco_max": 150
+    },
+    {
+      "id": "cozinha",
+      "nome": "Cozinha Funcional",
+      "emoji": "🍳",
+      "descricao": "montar a cozinha sem quebrar o banco",
+      "termos_ml": ["frigideira antiaderente", "panela pressão", "forma silicone", "processador alimentos", "escorredor louça", "jogo facas", "tábua corte", "organizador geladeira", "pote hermético", "colher silicone"],
+      "preco_max": 150
+    },
+    {
+      "id": "pet_ape",
+      "nome": "Pet no Apê",
+      "emoji": "🐾",
+      "descricao": "ter bichinho sem desorganizar o apartamento",
+      "termos_ml": ["comedouro automático", "arranhador gato", "cama pet", "brinquedo interativo gato", "coleira led", "bebedouro fonte pet", "caixa areia gato", "guia retratil", "bolsa transporte pet", "tapete higienico"],
+      "preco_max": 150
+    },
+    {
+      "id": "organização",
+      "nome": "Casa Organizada",
+      "emoji": "✨",
+      "descricao": "organizar a vida gastando nada",
+      "termos_ml": ["organizador gaveta", "cabide veludo", "caixas organizadoras", "suporte parede", "gancho adesivo", "porta sapato", "organizador embaixo cama", "divisória gaveta", "etiquetadora", "cesto roupa"],
+      "preco_max": 100
+    }
+  ]
+}
