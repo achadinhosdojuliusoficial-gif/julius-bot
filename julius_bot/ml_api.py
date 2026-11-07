@@ -11,10 +11,10 @@ def buscar_produtos(keywords: list[str], tracking_id: str = "", limite: int = 5)
     params = {
         "q": keyword,
         "limit": 20,
-        "condition": "new",
+    
     }
     try:
-        resp = requests.get(ML_SEARCH_URL, params=params, timeout=15)
+        resp = requests.get(ML_SEARCH_URL, params=params, timeout=15, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"})
         resp.raise_for_status()
         data = resp.json()
     except Exception as e:
