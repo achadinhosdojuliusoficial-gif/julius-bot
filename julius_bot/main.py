@@ -35,7 +35,7 @@ def main() -> None:
     produtos = buscar_produtos(nicho["keywords"], tracking_id=tracking_id, limite=5)
     if not produtos:
         print("[main] Nenhum produto encontrado. Encerrando.")
-                sys.exit(0)
+        sys.exit(0)
     print(f"[main] {len(produtos)} produtos encontrados.")
 
     pasta_tmp = tempfile.mkdtemp(prefix="julius_")
