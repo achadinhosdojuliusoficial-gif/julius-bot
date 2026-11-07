@@ -1,0 +1,39 @@
+{
+  "nichos": [
+    {
+      "nome": "Primeiro Apê",
+      "keywords": ["cama", "colchão", "travesseiro", "jogo de cama", "rack", "mesa", "cadeira", "sofá", "tapete", "luminária"],
+      "hashtags": ["#primeiroape #casanova #mudança #morarsobinho #decoracao #casadecoracao #apartamento #homedecor"]
+    },
+    {
+      "nome": "Home Office Econômico",
+      "keywords": ["cadeira escritório", "mesa escritório", "suporte notebook", "teclado", "mouse", "headset", "webcam", "organizador mesa", "luminária led", "monitor"],
+      "hashtags": ["#homeoffice #trabalhoremoto #escritorioemcasa #produtividade #homeofficesetup #remotework #desk #setup"]
+    },
+    {
+      "nome": "Kit Estudante",
+      "keywords": ["mochila", "caderno", "caneta", "lápis", "borracha", "calculadora", "organizador", "pasta", "estojo", "agenda"],
+      "hashtags": ["#estudante #faculdade #vestibular #enem #estudos #concursopublico #estudo #voltaasaulas #school"]
+    },
+    {
+      "nome": "Treino em Casa",
+      "keywords": ["haltere", "elástico resistência", "colchonete", "corda pular", "kettlebell", "barra", "prancha", "tapete yoga", "garrafa squeeze", "luva musculação"],
+      "hashtags": ["#treinoencasa #fitness #workout #exercicio #musculacao #saude #vidaativa #gym #treino #fitnessmotivation"]
+    },
+    {
+      "nome": "Cozinha Funcional",
+      "keywords": ["panela", "frigideira", "faca", "tábua corte", "pote hermético", "organizador gaveta", "suporte tempero", "batedeira", "liquidificador", "airfryer"],
+      "hashtags": ["#cozinha #kitchen #cozinhando #receita #organizacaocozinha #cozinhaorganizada #homedecor #culinaria"]
+    },
+    {
+      "nome": "Pet no Apê",
+      "keywords": ["cama pet", "comedouro", "bebedouro", "arranhador gato", "coleira", "guia", "brinquedo pet", "ração", "caixa transporte", "tapete higiênico"],
+      "hashtags": ["#pet #cachorro #gato #petlovers #animais #amor #dog #cat #petshop #pets #petoftheday"]
+    },
+    {
+      "nome": "Casa Organizada",
+      "keywords": ["caixa organizadora", "cabide", "organizador guarda roupa", "suporte parede", "prateleira", "gancho", "porta objetos", "cesto", "dispenser", "kit banheiro"],
+      "hashtags": ["#casaorganizada #organização #organizacao #homedecor #decoracao #minimalismo #organizacaodonlar #tidyup"]
+    }
+  ]
+}
